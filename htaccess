@@ -1,0 +1,50 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page67927857.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^index$ page67927857.html [NC]
+RewriteRule ^index/$ page67927857.html [NC]
+
+RewriteRule ^module1$ page68018031.html [NC]
+RewriteRule ^module1/$ page68018031.html [NC]
+
+RewriteRule ^module2_1$ page70287277.html [NC]
+RewriteRule ^module2_1/$ page70287277.html [NC]
+
+RewriteRule ^module2_2$ page70650705.html [NC]
+RewriteRule ^module2_2/$ page70650705.html [NC]
+
+RewriteRule ^module2_3$ page70792881.html [NC]
+RewriteRule ^module2_3/$ page70792881.html [NC]
+
+RewriteRule ^module3$ page72034833.html [NC]
+RewriteRule ^module3/$ page72034833.html [NC]
+
+RewriteRule ^module4$ page72491217.html [NC]
+RewriteRule ^module4/$ page72491217.html [NC]
+
+RewriteRule ^module5$ page72993373.html [NC]
+RewriteRule ^module5/$ page72993373.html [NC]
+
+RewriteRule ^module6$ page73333799.html [NC]
+RewriteRule ^module6/$ page73333799.html [NC]
+
+RewriteRule ^module7$ page73723157.html [NC]
+RewriteRule ^module7/$ page73723157.html [NC]
+
+RewriteRule ^module8_1$ page74169487.html [NC]
+RewriteRule ^module8_1/$ page74169487.html [NC]
+
+RewriteRule ^module8_2$ page74189119.html [NC]
+RewriteRule ^module8_2/$ page74189119.html [NC]
+
+RewriteRule ^module8_3$ page76600256.html [NC]
+RewriteRule ^module8_3/$ page76600256.html [NC]
+
+
